@@ -20,6 +20,8 @@
 		D037A9B7293454F800227F11 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D037A9B5293454F800227F11 /* LaunchScreen.storyboard */; };
 		D037A9C02934553400227F11 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D037A9BF2934553400227F11 /* StoreKit.framework */; };
 		D07598392936FB18008D43F0 /* ValidatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D07598382936FB18008D43F0 /* ValidatorTests.swift */; };
+		D0B4A3F12938396F000FDC57 /* APIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0B4A3F02938396F000FDC57 /* APIService.swift */; };
+		D0B4A3F329383BD3000FDC57 /* APIServiceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0B4A3F229383BD3000FDC57 /* APIServiceTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +59,8 @@
 		D037A9B8293454F800227F11 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D037A9BF2934553400227F11 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
 		D07598382936FB18008D43F0 /* ValidatorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ValidatorTests.swift; sourceTree = "<group>"; };
+		D0B4A3F02938396F000FDC57 /* APIService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIService.swift; sourceTree = "<group>"; };
+		D0B4A3F229383BD3000FDC57 /* APIServiceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIServiceTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +104,7 @@
 			children = (
 				D0112A9E29359F3E00A2D2A7 /* InAppPurchaseTestTests.swift */,
 				D07598382936FB18008D43F0 /* ValidatorTests.swift */,
+				D0B4A3F229383BD3000FDC57 /* APIServiceTests.swift */,
 			);
 			path = InAppPurchaseTestTests;
 			sourceTree = "<group>";
@@ -132,6 +137,7 @@
 				D037A9AC293454F700227F11 /* SceneDelegate.swift */,
 				D037A9AE293454F700227F11 /* ViewController.swift */,
 				D0112AA52935AB6900A2D2A7 /* LoginViewController.swift */,
+				D0B4A3F02938396F000FDC57 /* APIService.swift */,
 				D037A9B0293454F700227F11 /* Main.storyboard */,
 				D037A9B3293454F800227F11 /* Assets.xcassets */,
 				D037A9B5293454F800227F11 /* LaunchScreen.storyboard */,
@@ -289,6 +295,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D0B4A3F329383BD3000FDC57 /* APIServiceTests.swift in Sources */,
 				D07598392936FB18008D43F0 /* ValidatorTests.swift in Sources */,
 				D0112A9F29359F3E00A2D2A7 /* InAppPurchaseTestTests.swift in Sources */,
 			);
@@ -299,6 +306,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D0112AA62935AB6900A2D2A7 /* LoginViewController.swift in Sources */,
+				D0B4A3F12938396F000FDC57 /* APIService.swift in Sources */,
 				D037A9AF293454F700227F11 /* ViewController.swift in Sources */,
 				D037A9AB293454F700227F11 /* AppDelegate.swift in Sources */,
 				D037A9AD293454F700227F11 /* SceneDelegate.swift in Sources */,
